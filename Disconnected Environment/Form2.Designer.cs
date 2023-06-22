@@ -35,6 +35,8 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +78,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(623, 525);
+            this.btnClear.Location = new System.Drawing.Point(623, 606);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 46);
             this.btnClear.TabIndex = 4;
@@ -86,7 +88,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(418, 525);
+            this.btnSave.Location = new System.Drawing.Point(418, 606);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(112, 46);
             this.btnSave.TabIndex = 5;
@@ -96,7 +98,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(763, 466);
+            this.btnAdd.Location = new System.Drawing.Point(754, 494);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(112, 46);
             this.btnAdd.TabIndex = 6;
@@ -104,11 +106,29 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(273, 534);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 25);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "ID Prodi";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(418, 527);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(317, 31);
+            this.txtID.TabIndex = 8;
+            // 
             // FormDataProdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1180, 753);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClear);
@@ -134,5 +154,7 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtID;
     }
 }

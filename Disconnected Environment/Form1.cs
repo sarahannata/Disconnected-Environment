@@ -41,8 +41,8 @@ namespace Disconnected_Environment
 
         private void dataMahasiswaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormDataMahasiswa fm = new FormDataMahasiswa();
-            fm.Show();
+            Form5 fo = new Form5();
+            fo.Show();
             this.Hide();
         }
 
